@@ -37,6 +37,7 @@
 # 有序性（Ordering）
 
 # 新建线程
+CreateThread3
 # 终止线程
 StopThreadSafe
 StopThreadUnsafe
@@ -50,3 +51,13 @@ WaitNotify
 不推荐使用suspend()方法去挂起线程是因为suspend()方法在导致线程暂停的同时，并不会释放任何锁资源。此时，其他任何线程想要访问被它占用的锁时，都会被牵连，导致无法正常继续运行（如图2.7所示）。直到对应的线程上进行了resume()方法操作，被挂起的线程才能继续，从而其他所有阻塞在相关锁上的线程也可以继续执行。但是，如果resume()方法操作意外地在suspend()方法前就执行了，那么被挂起的线程可能很难有机会被继续执行。并且，更严重的是：它所占用的锁不会被释放，因此可能会导致整个系统工作不正常。而且，对于被挂起的线程，从它的线程状态上看，居然还是Runnable，这也会严重影响我们对系统当前状态的判断。
 
 # 等待线程结束（join）和谦让（yeild）
+JoinThread
+# 线程组(group)
+ThreadGroupTest
+
+# 守护线程(Daemon)
+DaemonThread
+
+# 线程优先级(Priority)
+
+2.8
