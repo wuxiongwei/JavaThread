@@ -3,21 +3,12 @@ package com.wuxiongwei.java.thread.akka.demo4;
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
 import akka.testkit.javadsl.TestKit;
-import com.sun.tools.javac.util.Assert;
 
 import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 
 /**
- * <p>
- * Copyright: Copyright (c) 2020/11/19  10:54 上午
- * <p>
- * Company: 苏州渠成易销网络科技有限公司
- * <p>
- *
- * @author xiongwei.wu@successchannel.com
- * @version 1.0.0
  */
 public class Test {
     @org.junit.Test

@@ -8,14 +8,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * <p>
- * Copyright: Copyright (c) 2020/11/19  11:34 上午
- * <p>
- * Company: 苏州渠成易销网络科技有限公司
- * <p>
- *
- * @author xiongwei.wu@successchannel.com
- * @version 1.0.0
  */
 public class Test1 {
     @Test
