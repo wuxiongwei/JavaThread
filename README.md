@@ -64,3 +64,8 @@ DaemonThread
 IntOverflow
 # ArrayList并发问题
 ArrayListMultiThread
+# HashMap 并发问题
+HashMapMultiThread
+
+# 重入锁
+ReentrantLock
